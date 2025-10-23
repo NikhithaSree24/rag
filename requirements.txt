@@ -1,0 +1,23 @@
+# Core backend
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+aiofiles
+requests
+tqdm
+
+# LangChain + Vectorstore
+langchain>=0.1.0
+langchain-community
+faiss-cpu
+
+# Embeddings & Models
+transformers
+sentence-transformers
+
+# Document handling
+pypdf
+
+# Frontend
+streamlit
